@@ -15,6 +15,9 @@ A full-stack AI-powered blog writer that uses LangChain and OpenAI to generate h
 
 ---
 
+#<img width="1440" alt="Screenshot 2025-05-21 at 15 26 01" src="https://github.com/user-attachments/assets/dd47e264-85cb-4183-9e6f-2c09455a6bba" />
+
+
 ## 🛠 Tech Stack
 
 - **Frontend**: HTML, CSS (Tailwind), JavaScript (Node.js)
@@ -48,4 +51,4 @@ OpenAI
 Flask
 Tailwind CSS
 """
-@owner ANURODH PANCHOLI
+# ANURODH PANCHOLI

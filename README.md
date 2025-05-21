@@ -48,3 +48,4 @@ OpenAI
 Flask
 Tailwind CSS
 """
+@owner ANURODH PANCHOLI

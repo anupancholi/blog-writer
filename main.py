@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-import os
+import toml
 app = Flask(__name__)
 
 
@@ -21,7 +21,8 @@ def generate():
             "Generate a blog on title {title}?")
 
         # ✅ Get OpenAI API key from environment
-        openai_key = os.getenv("OPENAI_API_KEY")
+        secrets = toml.load("secrets.toml")
+        openai_key = secrets["default"]["OPENAI_API_KEY"]
         if not openai_key:
             return "OPENAI_API_KEY is not set", 500
 

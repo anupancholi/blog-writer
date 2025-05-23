@@ -1,2 +1,6 @@
 /.venv
 /node_modules
+static/css/.DS_Store
+static/.DS_Store
+.gitignore
+.DS_Store

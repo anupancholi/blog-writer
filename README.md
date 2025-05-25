@@ -1,3 +1,6 @@
+#Link to the Website
+https://short-blog-writer.onrender.com
+
 #  Blog Writer using LangChain, Flask & Node
 
 A full-stack AI-powered blog writer that uses LangChain and OpenAI to generate high-quality blog articles based on user-provided titles. This project combines a Python Flask backend with a Node.js-powered frontend and Tailwind CSS for styling.
